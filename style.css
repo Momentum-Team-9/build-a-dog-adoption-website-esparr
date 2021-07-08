@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: "Open-sans", sans-serif;
+}
+
+header {
+    background-color: #004175;
+    border-bottom: 3px #89Deef solid;
+    color: white;
+    padding: 50px 60px 40px 60px;
+}
