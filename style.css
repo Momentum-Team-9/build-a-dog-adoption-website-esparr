@@ -4,42 +4,64 @@
     padding: 0;
     border: 0;
 }
+
 body {
     font-family: "Open-sans", sans-serif;
 }
 
-header {
+/*li {
+    display: inline;
+    width: auto;
+}*/
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+}
+
+.header-heading {
     background-color: #004175;
     border-bottom: 3px #89Deef solid;
     color: white;
     padding: 50px 60px 40px 60px;
 }
 
-main {
+.main-padding {
     padding: 30px 60px;
 }
 
-main h2 {
+.main-header-padding{
     padding-bottom: 25px;
 }
 
-main p {
+.p-subheader-padding {
     padding-bottom: 10px;
 }
 
-div.card {
+.container {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-.card img{
+.display-inline {
+}
+
+.dog-photo {
     width: 300px;
 }
 
-.card ul {
-    padding: 5px;
-    list-style-type:none;
+.trait-list {
+    font-size: 10px;
+    list-style: outside none none;
+    display: flex;
+    justify-self: flex-start;
 }
 
-.trait {
+.trait-tag {
     background-color: #89deef;
+    padding: 3px 7px;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
 }
