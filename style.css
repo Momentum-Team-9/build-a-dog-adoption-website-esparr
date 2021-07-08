@@ -14,3 +14,32 @@ header {
     color: white;
     padding: 50px 60px 40px 60px;
 }
+
+main {
+    padding: 30px 60px;
+}
+
+main h2 {
+    padding-bottom: 25px;
+}
+
+main p {
+    padding-bottom: 10px;
+}
+
+div.card {
+    display: flex;
+}
+
+.card img{
+    width: 300px;
+}
+
+.card ul {
+    padding: 5px;
+    list-style-type:none;
+}
+
+.trait {
+    background-color: #89deef;
+}
