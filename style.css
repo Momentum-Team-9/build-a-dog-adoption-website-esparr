@@ -70,17 +70,34 @@ body {
 }
 
 .nav-flex {
-
+    display: flex;
+    flex: 1 1 auto;
+    height: 300px;
 }
 
-.nav-card {
+.nav-box {
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.nav-box h1 {
+    color: white;
+}
+
+.location {
+    background-image: url(starter_files/images/location.png);
 
 }
 
 .volunteer {
-
+    background-image: url(starter_files/images/volunteer.jpg);
 }
 
 .donate {
-
+    background-image: url(starter_files/images/donate.jpg);
 }
