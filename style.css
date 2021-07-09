@@ -71,33 +71,51 @@ body {
 
 .nav-flex {
     display: flex;
-    flex: 1 1 auto;
     height: 300px;
 }
 
 .nav-box {
     display: flex;
-    flex-flow: row nowrap; 
     justify-content: center;
     align-items: center;
-    background-size: cover;
+    font-size: 2vw;
     margin: 0 auto;
     flex: 1;
+    text-align: center;
 }
 
-.nav-box h1 {
+.color-white {
     color: white;
 }
 
-.location {
-    background-image: url(starter_files/images/location.png);
+.donate {
+    background: 
+    linear-gradient(
+      rgba(166, 169, 240, 0.45), 
+      rgba(166, 169, 240, 0.45)
+    ), url(starter_files/images/donate.jpg);
+    background-size: cover;
+}
 
+.location {
+    background: 
+    linear-gradient(
+      rgba(166, 169, 240, 0.45), 
+      rgba(166, 169, 240, 0.45)
+    ), url(starter_files/images/location.png);
+    background-size: cover;
 }
 
 .volunteer {
-    background-image: url(starter_files/images/volunteer.jpg);
+    background: 
+    linear-gradient(
+      rgba(166, 169, 240, 0.45), 
+      rgba(166, 169, 240, 0.45)
+    ), url(starter_files/images/volunteer.jpg);
+    background-size: cover;
 }
 
-.donate {
-    background-image: url(starter_files/images/donate.jpg);
+@media (max-width: 700px){
+    .nav-box {
+    }
 }
