@@ -71,18 +71,19 @@ body {
 .trait-tag {
     display: inline-block;
     background-color: #89deef;
-    font-size: ;
     padding: 3px 7px;
     margin: 5px 0 0 0;
     border-radius: 10px;
     white-space: nowrap;
 }
 
+/* Sets height of footer nav bar and makes flex */
 .nav-flex {
     display: flex;
     height: 300px;
 }
 
+/* Flexes images and box sizes. Sets font to be responsive and centered. */
 .nav-box {
     display: flex;
     justify-content: center;
@@ -93,10 +94,12 @@ body {
     text-align: center;
 }
 
+/* Changes font color to white */
 .color-white {
     color: white;
 }
 
+/* Adds transparent masked image to background */
 .donate {
     background: 
     linear-gradient(
@@ -106,6 +109,7 @@ body {
     background-size: cover;
 }
 
+/* Adds transparent masked image to background */
 .location {
     background: 
     linear-gradient(
@@ -115,6 +119,7 @@ body {
     background-size: cover;
 }
 
+/* Adds transparent masked image to background */
 .volunteer {
     background: 
     linear-gradient(
@@ -124,7 +129,20 @@ body {
     background-size: cover;
 }
 
+/* Sets mobile views */
 @media (max-width: 700px){
+    .nav-flex {
+        display: flex;
+        flex-flow: column;
+        height: 600px;
+    }
+    
     .nav-box {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 4vw;
     }
 }
