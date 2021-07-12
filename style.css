@@ -9,6 +9,11 @@ body {
     font-family: "Open-sans", sans-serif;
 }
 
+a:hover {
+    color: black;
+}
+
+
 /* Changes font to Oswald */
 .oswald {
     font-family: "Oswald", sans-serif;
@@ -128,6 +133,12 @@ body {
     ), url(starter_files/images/volunteer.jpg);
     background-size: cover;
 }
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* Sets mobile views */
 @media (max-width: 700px){
